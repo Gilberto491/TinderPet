@@ -20,7 +20,7 @@ class Header extends React.Component {
                             </ul>
 
                             <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                                <input type="search" className="form-control" placeholder="Search..." aria-label="Search"/>
+                                <input type="search" className="form-control" placeholder="buscar" aria-label="Search"/>
                             </form>
 
                             <div className="dropdown text-end">
@@ -32,7 +32,7 @@ class Header extends React.Component {
                                     <li><a className="dropdown-item" href="#">Settings</a></li>
                                     <li><a className="dropdown-item" href="#">Profile</a></li>
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Sign out</a></li>
+                                    <li><a className="dropdown-item" href="#">Sair</a></li>
                                 </ul>
                             </div>
                         </div>
