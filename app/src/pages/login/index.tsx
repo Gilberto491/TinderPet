@@ -1,6 +1,5 @@
 import React from 'react';
-import Footer from '../../components/footer';
-import Login from '../../components/login'
+import {Login, Footer} from '../../components'
 
 export default function login() {
     return (
