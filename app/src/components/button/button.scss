@@ -1,0 +1,25 @@
+button.round, .button.round {
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px;
+}
+
+button.large, .button.large {
+    padding-top: 1.03125em;
+    padding-bottom: 1.03125em;
+}
+
+button.large, .button.large {
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 1.0625em;
+    padding-left: 2em;
+    font-size: 1.25em;
+}
+
+.button-banner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}

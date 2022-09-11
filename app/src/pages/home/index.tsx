@@ -1,13 +1,12 @@
 import React from 'react';
-import Header from '../../components/header';
-import Footer from '../../components/footer';
-import Banner from '../../components/banner';
+import {Header, Banner, Footer, Carrousel} from '../../components';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Banner/>
+      <Carrousel/>
       <Footer/>
     </div>
   );
