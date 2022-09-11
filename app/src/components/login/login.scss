@@ -58,8 +58,6 @@ h2 {
     border-radius: 0 0 10px 10px;
 }
 
-
-
 /* TABS */
 
 h2.inactive {
@@ -74,8 +72,7 @@ h2.active {
 
 
 /* FORM TYPOGRAPHY*/
-
-input[type=button], input[type=submit], input[type=reset]  {
+.input  {
     background-color: #56baed;
     border: none;
     color: white;
@@ -243,8 +240,6 @@ input[type=text]:placeholder {
     width: 100%;
 }
 
-
-
 /* OTHERS */
 
 *:focus {
@@ -252,5 +247,9 @@ input[type=text]:placeholder {
 } 
 
 #icon {
-    width:60%;
+    width: 15%;
+}
+
+.login-aside {
+    height: 100vh;
 }
