@@ -1,15 +1,15 @@
-import React from 'react';
-import {Header, Banner, Footer, Carrousel} from '../../components';
+import {Header, Banner, Footer, Carrousel, Button} from '../../components';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Header/>
       <Banner/>
       <Carrousel/>
+      <Button
+        position="relative"
+      />
       <Footer/>
     </div>
   );
 }
-
-export default App;

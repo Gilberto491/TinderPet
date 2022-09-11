@@ -1,11 +1,10 @@
-import React from "react";
 import "./header.scss";
 
-function Header() {
+export default function Header() {
     return (
-        <body>
-            <a href="body" id="toTopBtn" className="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
-            <header className="p-3 mb-3 border-bottom">
+        <body data-spy="scroll" data-target=".fixed-top">
+            <a href="home" id="toTopBtn" className="page-scroll cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+            <header id="header" className="p-3 mb-3 border-bottom">
                 <div className="container">
                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                         <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
@@ -22,12 +21,12 @@ function Header() {
 
                         <div className="dropdown text-end">
                             <a href="#" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle"/>
+                                <img src="https://avatars.githubusercontent.com/u/56416760?v=4" alt="mdo" width="32" height="32" className="rounded-circle"/>
                             </a>
                             <ul className="dropdown-menu text-small">
                                 <li><a className="dropdown-item" href="#">Perfil</a></li>
                                 <li><hr className="dropdown-divider"/></li>
-                                <li><a className="dropdown-item" href="#">Sair</a></li>
+                                <li><a className="dropdown-item" href="../../pages/login.tsx">Sair</a></li>
                             </ul>
                         </div>
                     </div>
@@ -36,5 +35,3 @@ function Header() {
         </body>
     )
 }
-
-export default Header;

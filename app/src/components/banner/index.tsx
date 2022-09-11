@@ -1,15 +1,16 @@
-import React from "react";
 import PetBanner from "../../img/banner.png";
 import "./banner.scss";
 import Button from "../button";
 
-function Banner() {
+export default function Banner() {
     return (
         <aside>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <Button/>  
+                    <Button
+                        position="absolute"
+                    />  
                         <img src={PetBanner} className="d-block w-100 image" alt="banner dog"/>
                          
                         <div className="carousel-caption d-none d-md-block">
@@ -22,5 +23,3 @@ function Banner() {
         </aside>
     )
 }
-
-export default Banner;

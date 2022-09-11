@@ -1,8 +1,7 @@
-import React from "react";
 import "./footer.scss";
 import Logo from "../../img/logo.png";
 
-function Footer() {
+export default function Footer() {
     return (
         <aside>
             <div className="footer container-my">
@@ -17,5 +16,3 @@ function Footer() {
         </aside>    
     )
 }
-
-export default Footer;

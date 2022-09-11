@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
 import 'reactstrap';
 import "./carrousel.scss";
 import Cat1 from "../../img/cat1.png";
   
-  function Carrousel() {
+export default function Carrousel() {
     return (
         <aside>
              <div className="slider-2 carrousel">
@@ -20,7 +19,7 @@ import Cat1 from "../../img/cat1.png";
                                             </div> 
                                             <div className="text-wrapper">
                                                 <div className="testimonial-text">“Minha mais sincera gratidão por todos os profissionais que administram essa página. Hoje sou muito feliz pois encontrei o gatinho dos sonhos e atráves dele consegui desfrutar momentos felizes!! 
-                                                Hoje nós temos 27 filhotinhos e meus donos cuidam muito bem deles (Aliás se você quiser pegar um sabia que estou cuidando com muito amor e carinho).”</div>
+                                                Hoje nós temos 27 filhotinhos e meus donos cuidam muito bem deles (Aliás se você quiser pegar um saiba que estou cuidando com muito amor e carinho).”</div>
                                                 <div className="testimonial-author"><b>Jude</b></div>
                                             </div> 
                                         </div> 
@@ -71,6 +70,4 @@ import Cat1 from "../../img/cat1.png";
             </div> 
         </aside>
     )
-  }
-  
-  export default Carrousel;
+}

@@ -1,29 +1,23 @@
-import React from "react";
 import "./login.scss";
+import IconLogin from "../../img/login.png";
 
-function Login() {
+export default function Login() {
     return (
-        <body>
+        <aside className="login-aside">
             <div className="wrapper fadeInDown">
                 <div id="formContent">
                     <div className="fadeIn first">
-                        <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+                        <img src={IconLogin} id="icon" className="iconLogin" alt="User Icon" />
                     </div>
 
                     <form>
-                        <input type="text" id="login" className="fadeIn second" name="login" placeholder="login" />
-                        <input type="text" id="password" className="fadeIn third" name="login" placeholder="password" />
-                        <input type="submit" className="fadeIn fourth" value="Log In" />
+                        <input type="text" id="login" className="fadeIn second input-login" name="login" placeholder="login" />
+                        <input type="text" id="password" className="fadeIn third input-login" name="login" placeholder="password" />
+                        <input type="submit" className="fadeIn fourth input" value="Log In" />
                     </form>
-                
-                    <div id="formFooter">
-                        <a className="underlineHover" href="#">Forgot Password?</a>
-                    </div>
 
                 </div>
             </div>
-        </body>
+        </aside>
     )
 }
-
-export default Login;

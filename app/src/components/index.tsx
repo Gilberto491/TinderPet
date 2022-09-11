@@ -3,5 +3,6 @@ import Banner from "./banner";
 import Footer from "./footer";
 import Login from "./login";
 import Carrousel from "./carrousel";
+import Button from "./button";
 
-export { Header, Banner, Footer, Login, Carrousel};
+export { Header, Banner, Footer, Login, Carrousel, Button};
