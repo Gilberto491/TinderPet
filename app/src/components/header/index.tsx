@@ -1,10 +1,11 @@
 import "./header.scss";
 import { Link } from "react-router-dom";
+import ScrollTop from "./scrollTop";
 
 export default function Header() {
     return (
-        <body data-spy="scroll" data-target=".fixed-top">
-            <Link to="/home" id="toTopBtn" className="page-scroll cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></Link>
+        <body>
+            <ScrollTop/>
             <header id="header" className="p-3 mb-3 border-bottom">
                 <div className="container">
                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
