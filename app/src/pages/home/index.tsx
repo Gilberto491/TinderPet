@@ -1,4 +1,4 @@
-import {Header, Banner, Footer, Carrousel, Button} from '../../components';
+import {Header, Banner, Footer, Carrousel, Modal} from "../../components";
 
 export default function App() {
   return (
@@ -6,7 +6,7 @@ export default function App() {
       <Header/>
       <Banner/>
       <Carrousel/>
-      <Button
+      <Modal
         position="relative"
       />
       <Footer/>

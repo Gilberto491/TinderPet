@@ -1,5 +1,6 @@
 import "./login.scss";
 import IconLogin from "../../img/login.png";
+import { Link } from "react-router-dom";
 
 export default function Login() {
     return (
@@ -11,13 +12,15 @@ export default function Login() {
                     </div>
 
                     <form>
-                        <input type="text" id="login" className="fadeIn second input-login" name="login" placeholder="login" />
-                        <input type="text" id="password" className="fadeIn third input-login" name="login" placeholder="password" />
-                        <input type="submit" className="fadeIn fourth input" value="Log In" />
+                        <input type="text" id="login" className="fadeIn second input-login" placeholder="login" />
+                        <input type="password" id="password" className="fadeIn third input-login"  placeholder="password" />
+                        <Link to='/home'>
+                            <input type="submit" className="fadeIn fourth input" value="Log In" />
+                        </Link>
                     </form>
 
                 </div>
             </div>
         </aside>
-    )
+    );
 }

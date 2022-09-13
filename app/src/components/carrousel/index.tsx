@@ -1,4 +1,4 @@
-import 'reactstrap';
+import "reactstrap";
 import "./carrousel.scss";
 import Cat1 from "../../img/cat1.png";
   
@@ -12,7 +12,6 @@ export default function Carrousel() {
                             <div className="slider-container">
                                 <div className="swiper-container text-slider">
                                     <div className="swiper-wrapper">
-                                    
                                         <div className="swiper-slide">
                                             <div className="image-wrapper">
                                                 <img className="img-fluid" src={Cat1}  alt="alternative"/>
@@ -53,14 +52,10 @@ export default function Carrousel() {
                                                 <div className="testimonial-author">Ronda Louis - Sistemas para Internet</div>
                                             </div> 
                                         </div> 
-                                    
-
                                     </div>
                                     
-                                
                                     <div className="swiper-button-next"></div>
                                     <div className="swiper-button-prev"></div>
-                                
 
                                 </div> 
                             </div> 
@@ -69,5 +64,5 @@ export default function Carrousel() {
                 </div> 
             </div> 
         </aside>
-    )
+    );
 }
