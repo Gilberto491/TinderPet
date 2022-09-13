@@ -1,5 +1,5 @@
-.btn-notFound {
-    background-color: rgba(86, 237, 189, 1);
+.btn-custom {
+    background-color: #56baed;
     border: none;
     color: white;
     padding: 15px 80px;
@@ -15,15 +15,14 @@
     user-select: none;
     white-space: pre;
     align-items: flex-start;
-    text-transform: uppercase;
 }
 
-.btn-notFound-link {
-    text-decoration: none;
-    color: white;
+#relative {
+    position: relative;
 }
 
-.btn-notFound-link:hover {
-    text-decoration: none;
-    color: white; 
+#absolute {
+    margin-left: -180px;
+    
+    position: absolute;
 }

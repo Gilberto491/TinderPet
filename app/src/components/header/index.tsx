@@ -1,18 +1,19 @@
 import "./header.scss";
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
         <body data-spy="scroll" data-target=".fixed-top">
-            <a href="home" id="toTopBtn" className="page-scroll cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+            <Link to="/home" id="toTopBtn" className="page-scroll cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></Link>
             <header id="header" className="p-3 mb-3 border-bottom">
                 <div className="container">
                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                        <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                        <Link to="/" className="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
                             <svg className="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"></svg>
-                        </a>
+                        </Link>
 
                         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                            <li><a href="#" className="nav-link px-2 link-secondary">Overview</a></li>
+                            <li><Link to="/home" className="nav-link px-2 link-secondary">Overview</Link></li>
                         </ul>
 
                         <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -20,18 +21,18 @@ export default function Header() {
                         </form>
 
                         <div className="dropdown text-end">
-                            <a href="#" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link to="#" className="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="https://avatars.githubusercontent.com/u/56416760?v=4" alt="mdo" width="32" height="32" className="rounded-circle"/>
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu text-small">
-                                <li><a className="dropdown-item" href="#">Perfil</a></li>
+                                <li><Link className="dropdown-item text-decoration-none" to="#">Perfil</Link></li>
                                 <li><hr className="dropdown-divider"/></li>
-                                <li><a className="dropdown-item" href="../../pages/login.tsx">Sair</a></li>
+                                <li><Link to="/" className="dropdown-item">Sair</Link></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </header>
         </body>
-    )
+    );
 }

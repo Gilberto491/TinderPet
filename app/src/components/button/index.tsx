@@ -1,9 +1,11 @@
 import "./button.scss";
+import { useNavigate } from "react-router-dom";
 
-export default function Button({position}: {position: string}) {
+export default function Button() {
+    const navigate = useNavigate();
     return (
-        <aside className="button-banner">
-            <input id={position} type="submit" className="button large ef-button round hide-for-small" value="Encontrar Pretendentes Agora!"></input>
-        </aside>    
-    )
+        <button  className="btn-notFound" onClick={() => navigate(-1)}>
+            voltar agora mesmo!
+        </button>
+    );
 }
