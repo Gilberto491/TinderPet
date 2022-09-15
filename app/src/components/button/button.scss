@@ -18,12 +18,6 @@
     text-transform: uppercase;
 }
 
-.btn-notFound-link {
-    text-decoration: none;
-    color: white;
-}
-
-.btn-notFound-link:hover {
-    text-decoration: none;
-    color: white; 
+.btn-notFound:hover {
+    background-color: rgb(17, 161, 115, 0.8);
 }
