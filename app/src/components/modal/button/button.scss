@@ -16,13 +16,34 @@
     white-space: pre;
     align-items: flex-start;
 }
+@media (max-width: 767px) {
+    .btn-notFound {
+        padding: 14px 45px !important;
+        font-size: 12px !important;
+    }
+}
+
+@media(max-width: 735px) {
+    #relative {
+        padding: 15px 29px;
+        font-size: 13px;
+    }
+    #absolute {
+        margin-left: -90px !important;
+        padding: 14px 15px;
+        font-size: 13px;
+    }
+}
+
+.btn-custom:hover {
+    background-color: #00aaff;
+}
 
 #relative {
-    position: relative;
+    position: static;
 }
 
 #absolute {
     margin-left: -180px;
-    
     position: absolute;
 }
