@@ -1,0 +1,63 @@
+.listPets-title {
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #999;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image-profile {
+    margin-top: -50px;
+    margin-bottom: 0px;
+}
+
+.listPets-name {
+    font-size: 24px;
+    margin: 12px 0 8px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Noto Sans',sans-serif;
+}
+
+.listPets-email {
+    font-size: 10px;
+    margin-top: -3px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: #555;
+    line-height: 1;
+    font-family: 'Noto Sans',sans-serif;
+}
+
+.listPets-margin-bottom {
+    margin-bottom: 50px;
+}
+
+.listPets-size-img {
+    max-height: 77.5px !important;
+    max-width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 1000px;
+}
+
+.listPets-margin-left {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+.listPets-desc {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.2em;
+    margin: 8px 0;
+    padding-top: 8px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
