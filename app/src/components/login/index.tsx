@@ -15,7 +15,7 @@ export default function Login() {
                         <input type="text" id="login" className="fadeIn second input-login" placeholder="login" />
                         <input type="password" id="password" className="fadeIn third input-login"  placeholder="password" />
                         <Link to='/home'>
-                            <input type="submit" className="fadeIn fourth input" value="Log In" />
+                            <input type="submit" className="fadeIn fourth input login-input" value="Log In" />
                         </Link>
                     </form>
 
