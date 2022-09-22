@@ -4,3 +4,25 @@
     font-size: 28px;
     background-color: rgba(10, 10, 10, 0.4);
 }
+
+.image-banner {
+    background-color: #98c598ba;
+}
+
+@media(max-width: 760px) {
+    .image {
+        width: 100%;
+        opacity: 0.9;
+    }
+}
+
+@media(min-width: 761px) {
+    .image {
+        opacity: 0.9;
+        margin-right: auto;
+        margin-left: auto;
+      }
+}
+
+
+

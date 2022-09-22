@@ -3,7 +3,6 @@ import Login from "./pages/login";
 import Home from "./pages/home";
 import Profile from "./pages/profile";
 import NotFound from "./pages/notFound";
-import Header from "./components/header";
 
 export default function AppRouter() {
     return (
