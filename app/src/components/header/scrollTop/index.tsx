@@ -1,18 +1,23 @@
 import {useEffect, useState} from "react";
 import "./scrollTop.scss";
 
-export default function ScrollTop() {
+export default function ScrollTop({page}: {page:boolean}) {
     const [backToTopButton, setBackToTopButton] = useState(false);
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if(window.scrollY > 100) {
-                setBackToTopButton(true);
-            } else {
-                setBackToTopButton(false);
-            }
+            if(page) {
+                backToTop(540);
+            } 
+               else {
+                backToTop(100);
+            } 
         });
     }, []);
+
+    const backToTop = (height: number) => {
+        window.scrollY > height ? setBackToTopButton(true) : setBackToTopButton(false);
+    };
 
     const scrollUp = () => {
         window.scrollTo({
