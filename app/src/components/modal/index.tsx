@@ -1,7 +1,8 @@
 import Button from "./button";
 import Pet from "../../img/login.png";
 import "./modal.scss";
-import Carrousel from "./carrousel";
+import Matchs from "./matchs";
+import Carousel from "./carousel";
 
 export default function Modal({position}: {position: string}) {
     return (
@@ -17,9 +18,8 @@ export default function Modal({position}: {position: string}) {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                           <Carrousel/>
+                           <Carousel/>
                         </div>
-                       
                     </div>
                 </div>
             </div>

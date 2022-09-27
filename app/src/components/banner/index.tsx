@@ -5,7 +5,7 @@ import Modal from "../modal";
 export default function Banner() {
     return (
         <aside>
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" className="carousel slide" >
                 <div className="carousel-inner">
                     <div className="carousel-item active image-banner">
                         <img src={PetBanner} className="d-block image" alt="banner dog"/>
