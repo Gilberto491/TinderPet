@@ -13,35 +13,34 @@ export default function Carousel() {
     return (
         <div id="carouselid" className="carousel slide" >
             <div className="carousel-inner">  
-                <div className="carousel-item active" >  
-                     <div className="photo" style={backgroundTeddy}>
+                <div className="carousel-item active" >    
+                    <div style={backgroundSnoopy}>
                         <Matchs
                             bio="Meu cachorro Teddy é um perfeito Spitz alemão anão- pomerânia. Ele tem 13 anos, sua cor é laranja e possui pedigree. Ele é lindo, dócil, não late, não morde, não é estressado e sim muito brincalhão."
                             title="Teddy"
                             age="13"
                         />
-                   </div>
+                    </div>    
                 </div>
-                <div className="carousel-item" >
-                    <div className="photo" style={backgroundDick}>
-                    <Matchs
-                         bio="Meu cachorro Teddy é um perfeito Spitz alemão anão- pomerânia. Ele tem 13 anos, sua cor é laranja e possui pedigree. Ele é lindo, dócil, não late, não morde, não é estressado e sim muito brincalhão."
-                         title="Teddy"
-                         age="13"
-                    />
+                <div className="carousel-item">
+                    <div style={backgroundSnoopy}>
+                        <Matchs
+                            bio="Meu cachorro Teddy é um perfeito Spitz alemão anão- pomerânia. Ele tem 13 anos, sua cor é laranja e possui pedigree. Ele é lindo, dócil, não late, não morde, não é estressado e sim muito brincalhão."
+                            title="Teddy"
+                            age="13"
+                        />
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <Matchs
-                         bio="Meu cachorro Teddy é um perfeito Spitz alemão anão- pomerânia. Ele tem 13 anos, sua cor é laranja e possui pedigree. Ele é lindo, dócil, não late, não morde, não é estressado e sim muito brincalhão."
-                         title="Teddy"
-                         age="13"
-                    />
+                    <div style={backgroundSnoopy}>
+                        <Matchs
+                            bio="Meu cachorro Teddy é um perfeito Spitz alemão anão- pomerânia. Ele tem 13 anos, sua cor é laranja e possui pedigree. Ele é lindo, dócil, não late, não morde, não é estressado e sim muito brincalhão."
+                            title="Teddy"
+                            age="13"
+                        />
+                    </div>
                 </div>
             </div>
-
-            
-            
-            </div>
+        </div>
     );
 }

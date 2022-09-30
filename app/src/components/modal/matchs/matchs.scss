@@ -5,11 +5,8 @@
 }
 
 .photo {
-    
     width: auto;
     height: 50vh;
-    /*width: auto;
-    height: 50vh;*/
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
@@ -53,7 +50,7 @@
     display: flex;
     flex: auto;
     align-items: center;
-    margin: 1rem 0;
+    padding-left: 34%;
 }
 
 .action-image {
@@ -63,5 +60,5 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin: 0 10px 0 10px;
+    margin: 17px 10px 4px 10px;
 }
