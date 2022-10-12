@@ -9,7 +9,7 @@ export default function ScrollTop({page}: {page:boolean}) {
             if(page) {
                 backToTop(540);
             } 
-               else {
+            else {
                 backToTop(100);
             } 
         });
@@ -33,5 +33,4 @@ export default function ScrollTop({page}: {page:boolean}) {
             )}
         </aside>
     );
-    
 }

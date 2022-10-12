@@ -1,10 +1,10 @@
-import Cat1 from "../../../img/cat1.png";
-import Dog1 from "../../../img/dog1.png";
-import Dog3 from "../../../img/dog3.png";
-import Teddy from "../../../img/dick.jpg";
-import Heart from "../../../img/heart.jpg";
-import Detest from "../../../img/detest.jpg";
-import Dick from "../../../img/dick-femea.jpg";
+import Cat1 from "img/cat1.png";
+import Dog1 from "img/dog1.png";
+import Dog3 from "img/dog3.png";
+import Teddy from "img/dick.jpg";
+import Heart from "img/heart.jpg";
+import Detest from "img/detest.jpg";
+import Dick from "img/dick-femea.jpg";
 import "./matchs.scss";
 import { title } from "process";
 import ReactConfetti from "react-confetti";

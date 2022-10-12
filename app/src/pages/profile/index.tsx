@@ -1,4 +1,4 @@
-import { Header, Footer, ListPets } from "../../components";
+import { Header, Footer, ListPets } from "components";
 
 export default function notFound() {
     return (
