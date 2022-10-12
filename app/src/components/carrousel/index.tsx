@@ -1,9 +1,9 @@
 import "reactstrap";
 import "./carrousel.scss";
-import Cat1 from "../../img/cat1.png";
-import Dog1 from "../../img/dog1.png";
-import Dog3 from "../../img/dog3.png";
-  
+import Cat1 from "img/cat1.png";
+import Dog1 from "img/dog1.png";
+import Dog3 from "img/dog3.png";
+
 export default function Carrousel() {
     return (
         <aside className="slider-2">

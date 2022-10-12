@@ -1,4 +1,4 @@
-import PetBanner from "../../img/banner.png";
+import PetBanner from "img/banner.png";
 import "./banner.scss";
 import Modal from "../modal";
 
@@ -14,7 +14,6 @@ export default function Banner() {
                     />  
                     </div>
                 </div>
-                 
             </div>
         </aside>
     );

@@ -1,9 +1,9 @@
 import Matchs from "../matchs";
-import Teste from "../../../img/cat1.png";
-import Heart from "../../../img/heart.jpg";
-import Detest from "../../../img/detest.jpg";
-import Teddy from "../../../img/teddy.jpg";
-import Dick from "../../../img/dick-femea.jpg";
+import Teste from "img/cat1.png";
+import Heart from "img/heart.jpg";
+import Detest from "img/detest.jpg";
+import Teddy from "img/teddy.jpg";
+import Dick from "img/dick-femea.jpg";
 
 export default function Carousel() {
     const backgroundTeddy = {background: `url(${Teddy}) center center/cover`};

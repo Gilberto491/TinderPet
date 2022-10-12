@@ -1,9 +1,9 @@
 import "./listPets.scss";
-import Teddy from "../../img/dog3.png";
+import Teddy from "img/dog3.png";
 
 export default function ListPets() {
     return (
-       <aside className="text-center">
+      <aside className="text-center">
         <img src="https://avatars.githubusercontent.com/u/56416760?v=4" alt="mdo" width="128" height="128" className="rounded-circle image-profile"/>
         <div>
             <h3 className="listPets-name">Gilberto Fredes</h3>
@@ -25,10 +25,9 @@ export default function ListPets() {
             <div className="card-footer">
               <small className="text-muted">3 mins ago</small>
             </div>
+            </div>
           </div>
         </div>
-      </div>
       </aside>
     );
-    
 }
